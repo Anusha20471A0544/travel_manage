@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-photo/back-school-background-with-school-supplies-copy-space_23-2148958977.jpg?t=st=1676545862~exp=1676546462~hmac=9329d96a2a678e361e832ebe00a9f580485fbc98e91c8705a7d86e37d0f1569d');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+form{
+
+    background-color:#fdfdfdb2;
+
+
+    width: 300px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+form input{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    outline-color: rgb(52, 174, 219);
+    border-radius: 50px;
+    border: none;
+}
+
+form input[type="submit"]{
+    width: 70%;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+input[type=submit] {
+    background-color: #010906;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f6073b;
+  }
+

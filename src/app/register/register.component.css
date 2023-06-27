@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://www.shutterstock.com/image-photo/black-wood-splash-flour-baking-600w-1733483963.jpg'); 
+  /* background-image: url('https://as2.ftcdn.net/v2/jpg/02/43/22/71/1000_F_243227135_0MKgZJefxBmaClJmhFdgfSByHI4n8UVy.jpg'); */
+  background-repeat: no-repeat;
+  background-size: 107% 107%;
+
+}
+
+
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+form{
+
+  background-color: #a39e9e;
+
+
+  width: 300px;
+  padding: 100px;
+  border-radius: 20px;
+}
+
+form input{
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  outline-color: rgb(52, 174, 219);
+  border-radius: 50px;
+  border: none;
+}
+
+form input[type="submit"]{
+  width: 70%;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+input[type=submit] {
+  background-color: #010906;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f6073b;
+}
+
+
